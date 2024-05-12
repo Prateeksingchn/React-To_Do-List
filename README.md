@@ -1,6 +1,5 @@
 Let's go through the code part by part and explain each section:
 -----------------------------------------------------------------------------------------------------------------------------------
-### javascript
 ### Imports:
 ```javascript
 import { nanoid } from 'nanoid';
@@ -13,7 +12,6 @@ import React from 'react';
 - We're also importing `React` itself, which is necessary for creating React components.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-### javascript
 ### TodoItem Component:
 ```javascript
 function TodoItem({ todo, index, completeHandler, deleteHandler, editHandler }) {
@@ -42,7 +40,6 @@ function TodoItem({ todo, index, completeHandler, deleteHandler, editHandler }) 
 - There are functions to handle editing (`editTodo`) and toggling completion status (`toggleCompleted`).
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-###javascript
 ### TaskList Component:
 ```javascript
 const TaskList = ({ tasks, completeHandler, deleteHandler, editHandler }) => (
@@ -69,8 +66,6 @@ const TaskList = ({ tasks, completeHandler, deleteHandler, editHandler }) => (
 - If there are no tasks, it displays a message saying "No Pending Tasks".
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-### javascript
-
 ### App Component (Main):
 ```javascript
 const App = () => {
