@@ -69,7 +69,6 @@ const TaskList = ({ tasks, completeHandler, deleteHandler, editHandler }) => (
 <<<<<<< HEAD
 
 =======
->>>>>>> 0f26e728cda4aa6abe9efff32504f1e4bfe87d9a
 ### App Component (Main):
 ```javascript
 const App = () => {
