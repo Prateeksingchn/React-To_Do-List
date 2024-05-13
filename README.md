@@ -69,7 +69,6 @@ const TaskList = ({ tasks, completeHandler, deleteHandler, editHandler }) => (
 <<<<<<< HEAD
 
 =======
->>>>>>> 0f26e728cda4aa6abe9efff32504f1e4bfe87d9a
 ### App Component (Main):
 ```javascript
 const App = () => {
@@ -118,5 +117,3 @@ export default App;
 <<<<<<< HEAD
 =======
 
-This breakdown should give you a clearer understanding of how the code works and how each part contributes to the overall functionality of the todo list application. Let me know if you need further clarification on any specific part!
->>>>>>> 0f26e728cda4aa6abe9efff32504f1e4bfe87d9a
