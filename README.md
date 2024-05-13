@@ -66,7 +66,10 @@ const TaskList = ({ tasks, completeHandler, deleteHandler, editHandler }) => (
 - If there are no tasks, it displays a message saying "No Pending Tasks".
 
 ------------------------------------------------------------------------------------------------------------------------------------------
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0f26e728cda4aa6abe9efff32504f1e4bfe87d9a
 ### App Component (Main):
 ```javascript
 const App = () => {
@@ -112,3 +115,8 @@ export default App;
 - The `useEffect` hook is used to load tasks from local storage when the component mounts.
 - There are functions to handle form submission (`submitHandler`), toggling task completion status (`completeHandler`), deleting tasks (`deleteHandler`), and editing tasks (`editHandler`).
 - It renders the form for adding tasks, the list of tasks (`TaskList` component), and handles task actions.
+<<<<<<< HEAD
+=======
+
+This breakdown should give you a clearer understanding of how the code works and how each part contributes to the overall functionality of the todo list application. Let me know if you need further clarification on any specific part!
+>>>>>>> 0f26e728cda4aa6abe9efff32504f1e4bfe87d9a
