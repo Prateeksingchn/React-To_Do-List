@@ -1,6 +1,5 @@
 Let's go through the code part by part and explain each section:
 -----------------------------------------------------------------------------------------------------------------------------------
-### javascript
 ### Imports:
 ```javascript
 import { nanoid } from 'nanoid';
@@ -13,7 +12,6 @@ import React from 'react';
 - We're also importing `React` itself, which is necessary for creating React components.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-### javascript
 ### TodoItem Component:
 ```javascript
 function TodoItem({ todo, index, completeHandler, deleteHandler, editHandler }) {
@@ -42,7 +40,6 @@ function TodoItem({ todo, index, completeHandler, deleteHandler, editHandler }) 
 - There are functions to handle editing (`editTodo`) and toggling completion status (`toggleCompleted`).
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-###javascript
 ### TaskList Component:
 ```javascript
 const TaskList = ({ tasks, completeHandler, deleteHandler, editHandler }) => (
@@ -69,7 +66,6 @@ const TaskList = ({ tasks, completeHandler, deleteHandler, editHandler }) => (
 - If there are no tasks, it displays a message saying "No Pending Tasks".
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-### javascript
 
 ### App Component (Main):
 ```javascript
@@ -116,5 +112,3 @@ export default App;
 - The `useEffect` hook is used to load tasks from local storage when the component mounts.
 - There are functions to handle form submission (`submitHandler`), toggling task completion status (`completeHandler`), deleting tasks (`deleteHandler`), and editing tasks (`editHandler`).
 - It renders the form for adding tasks, the list of tasks (`TaskList` component), and handles task actions.
-
-This breakdown should give you a clearer understanding of how the code works and how each part contributes to the overall functionality of the todo list application. Let me know if you need further clarification on any specific part!
